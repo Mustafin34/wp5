@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayMinMax</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../lab3/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content">
+            <div class="content">
+                <div class="header__logo">
+                    <a href="/lab5"><img src="../lab3/img/logo.png" alt="logo" /></a>
+                    <span>GAME NEWS</span>
+                </div>
+            </div>
+            <div class="content">
+                <nav class="header__menu">
+                    <ul>
+                        <li><a href="../lab3/index.html">Лабораторная №3</a></li>
+                        <li><a href="../lab4/index.html">Лабораторная №4</a></li>
+                        <li><a href="../lab5/index.html">Лабораторная №5</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main mh">
+        <div class="content">
+            <h1>Массив:</h1>
+
+            <div id="array"></div>
+
+            <div class="data">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Количество элементов</th>
+                            <th>Минимальный элемент</th>
+                            <th>Максимальный элемент</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="length"></td>
+                            <td id="min"></td>
+                            <td id="max"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="buttons">
+                <button class="btn" id="buildBtn">Создать массив</button>
+                <button class="btn" id="minBtn">Минимальный элемент</button>
+                <button class="btn" id="maxBtn">Максимальный элемент</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="content">
+            <span>&#169; Мустафин Даниил</span>
+            <span>УФА 2022г.</span>
+        </div>
+    </footer>
+    <script src="../lab3/js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

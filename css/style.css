@@ -1,0 +1,35 @@
+.mh {
+    min-height: 66vh;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.data {
+    margin: 20px 0;
+}
+.table{
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+.table td, 
+.table th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #cacaca;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+    text-align: center;
+}
